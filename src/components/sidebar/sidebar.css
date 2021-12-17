@@ -1,0 +1,14 @@
+.sidebar
+{
+    flex: 1;
+    height:calc(100vh - 50px) ;
+    background-color: rgb(57, 57, 70);
+    color: white;
+}
+.title
+{
+    background-color: rgb(91, 121, 219);
+    padding: 20px;
+    margin-bottom: 5px;
+    color: rgb(239, 243, 245);
+}

@@ -6,16 +6,16 @@ export default function Sidebar() {
         <div className="sidebar">
             <div className="sidebarWrapper">
                 <div className="sidebarMenu">
-                    <h3 className="title">Dashboard</h3>
+                    <h3 className="sidebarTitle">Dashboard</h3>
                     <ul className="sidebarList">
-                        <li className="sidebarListItems">
-                            <LineStyle /> Inicio
+                        <li className="sidebarListItems active">
+                            <LineStyle className="sidebarIcon" /> Inicio
                         </li>
                         <li className="sidebarListItems">
-                            <Timeline /> Graficas
+                            <Timeline className="sidebarIcon"/> Gráficas
                         </li>
                         <li className="sidebarListItems">
-                            <TrendingDown /> Estadisticas
+                            <TrendingDown className="sidebarIcon"/> Estadísticas
                         </li>
                        
                     </ul>

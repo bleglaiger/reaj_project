@@ -3,12 +3,44 @@
     flex: 1;
     height:calc(100vh - 50px) ;
     background-color: rgb(57, 57, 70);
-    color: white;
+    position: sticky;
+    top: 50px;
 }
-.title
+.sidebarTitle
 {
-    background-color: rgb(91, 121, 219);
+   font-size: 13px;
+   color: cornsilk;
+}
+.sidebarWrapper
+{
     padding: 20px;
-    margin-bottom: 5px;
-    color: rgb(239, 243, 245);
+    color:#555;
+}
+.sidebarMenu
+{
+    margin-bottom: 10px;
+}
+.sidebarList
+{
+    list-style: none;
+    padding: 5px;
+}
+.sidebarListItems
+{
+    padding: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    color: white;
+    border-radius: 10px;
+}
+.sidebarListItems.active,sidebarListItems:hover
+{
+    background-color: rgb(62, 62, 231);
+}
+
+.sidebarIcon
+{
+    margin-right: 5px;
+    font-size: 20px !important;
 }

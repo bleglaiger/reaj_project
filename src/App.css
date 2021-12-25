@@ -1,9 +1,10 @@
 .container
 {
     display: flex;
+    margin-top: 10px;
 }
-.content-body
+/* .content-body
 {
     flex:4;
     background-color: rgb(236, 239, 241);
-}
+} */

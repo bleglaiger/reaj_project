@@ -8,7 +8,7 @@ export default function Sidebar() {
                 <div className="sidebarMenu">
                     <h3 className="sidebarTitle">Dashboard</h3>
                     <ul className="sidebarList">
-                        <li className="sidebarListItems active">
+                        <li className="sidebarListItems">
                             <LineStyle className="sidebarIcon" /> Inicio
                         </li>
                         <li className="sidebarListItems">
